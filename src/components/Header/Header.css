@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 12em 1fr;
+  grid-template-rows: 6.25em;
+  background-color: rgba(173, 216, 230, 0.5);
+  height: 6.25em;
+  padding: 0;
+  margin: 0;
+}
+
+.header__title {
+  text-align: center;
+  margin: 0;
+}
+
+.header__titleContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menuBtn {
+  background-color: rgba(255, 165, 0, 0.5);
+  width: 7em;
+  border-radius: 0.3em;
+  outline: auto;
+}
