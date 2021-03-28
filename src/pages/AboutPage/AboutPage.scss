@@ -1,0 +1,23 @@
+@import '../../common/variables.scss';
+
+.container {
+  margin: 5em;
+  margin-left: 15em;
+  height: auto;
+  box-sizing: content-box;
+
+  &__text {
+    margin: 0;
+    margin-bottom: 1em;
+    line-height: 2em;
+    font-size: 25px;
+  }
+
+  &__bigText {
+    margin: 0;
+    margin-bottom: 2em;
+    line-height: 1em;
+    font-size: 40px;
+    text-align: center;
+  }
+}

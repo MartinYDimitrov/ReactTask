@@ -1,11 +1,9 @@
 @import '../../common/variables.scss';
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .header {
   display: grid;
   grid-template-columns: $primaryWidth 1fr;
@@ -14,7 +12,6 @@
   height: $primaryHeight;
   padding: 0;
   margin: 0;
-
   &__title {
     text-align: center;
     margin: 0;
@@ -22,7 +19,14 @@
 
   &__titleContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
+}
+
+.menuBtn {
+  background-color: $tertiary;
+  width: 7em;
+  border-radius: 0.3em;
+  outline: auto;
 }
